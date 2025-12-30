@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 // Route för startsidan
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('public/HomePage.html'));
+  res.sendFile(path.resolve('public/homepage.html'));
 });
 
 // Starta servern
